@@ -1,0 +1,379 @@
+v2.6.3
+===
+Improvements:
+- Optimized LibertyTunnel memory usage
+
+v2.6.2
+===
+Improvements:
+- Under the hood LibertyTunnel performance optimizations
+
+v2.6.1
+===
+Bugfixes:
+- Fixed an incompatibility with Android versions older than Android 8 Oreo
+
+v2.6
+===
+Improvements:
+- Under the hood optimization of the MITM module and LibertyTunnel SNI tricks
+
+Bugfixes:
+- Fixed the underlying issue which prevented LibertyTunnel "Remove SNI" trick from being applied
+
+v2.5
+===
+Improvements:
+- Improved in-app configuration editor
+- Under the hood optimization of LibertyTunnel packet chunking trick
+- Under the hood optimization of DNS over HTTPS resolvers performance on devices running Android 7 Nougat and older
+- Alphabetical sort in plugins list activity
+
+Bugfixes:
+- Fixed an issue when LibertyTunnel HTTP tricks interfered with SNI modification and broke websites
+- Fixed several crashes related to proxy server bootstrap
+- Fixed an issue if PowerTunnel restarted after editing configuration even if the server was not running
+- Underlying bugfixes for Firewall and other plugins unable to detect domains with proxy-based filtration
+
+Translations:
+- Added Portuguese Brazil translation
+- Added Turkish translation
+
+Known issues:
+- LibertyTunnel "Remove SNI" trick does not have effect due to underlying issue
+
+v2.4
+===
+New features:
+- In-app editor for plugin configuration files
+Long-press the gear icon in plugin list to access it
+
+Improvements:
+- Disabled Quick Tile on lockscreen
+- Disabled vibration for sticky notifications
+
+Bugfixes:
+- Fixed an issue when LibertyTunnel could not generate PAC file properly
+- Fixed an issue when LibertyTunnel went in global mode after enabling mirror
+
+Release notes:
+- Preinstalled Firewall plugin
+It is disabled by default, but it can be useful if you want to restrict access to a particular website
+- Preinstalled Hosts plugin
+With Hosts plugin, you can simulate system hosts file behaviour without root
+It can also be used as AdBlock if you set some public ad-blocking hosts file as a mirror
+
+v2.3.1
+===
+Bugfixes:
+- Fixed an issue when VPN Service was not restarting after configuration change
+- Fixed an issue when upstream proxy authorization did not work on Android versions older than Android 8 Oreo
+- LibertyTunnel no longer conflicts with other plugins which use MITM stack
+
+v2.3
+===
+New features:
+- Support for SOCKS4/SOCKS5 upstream proxy servers
+
+Bugfixes:
+- Fixed an issue when upstream proxy server did not connect
+
+v2.2
+===
+New features:
+- DNS Plugin allows to ignore system hosts file
+
+Improvements:
+- DNS Support for Android versions older than Android 8 Oreo
+- Improved DNS stack
+
+Bugfixes:
+- Fixed an issue when Strict DNS Mode was not working
+- Fixed minor DNS issues
+
+v2.1
+===
+Improvements:
+- Improved performance and memory usage
+- Improved reliability
+
+Bugfixes:
+- Fixed an issue when PowerTunnel was slow or did not work on certain Android devices
+
+v2.0.1
+===
+New features:
+- Option for enabling hostname resolving on VPN Interceptor level
+
+Improvements:
+- PowerTunnel will show more details about the plugin which is crashed during proxy server startup
+
+Bugfixes:
+- Fixed an issue when plugin's settings were not accessible on some OS locales
+
+v2.0
+===
+New features:
+- Plugins support with PowerTunnel SDK
+- Android 11 Support
+- Built-in optional AdBlocker
+- Support for blacklist for point bypass of locks
+- Autostart control
+- Support for viewing logs in-app
+
+Improvements:
+- Improved stability
+- Improved performance
+- Significantly reduced memory usage
+- Significantly reduced CPU usage
+- Improved DNS support
+- Improved UI appearance
+- Improved Quick Settings tile reliability and responsiveness
+- Improved VPN app selector performance
+- Improved notifications
+
+Bugfixes:
+- Fixed an issue when PowerTunnel was not starting by clicking QS tile
+- Fixed an issue when Root CA could not be installed
+- Fixed an issue when proxy server was crashing after start
+- Fixed an issue when VPN was started instead of proxy
+- Fixed an issue when VPN app selector was not opening
+- Fixed an issue when VPN app selector was crashed after searching
+
+v1.9.1
+===
+Improvements:
+- Optional Root CA installation for SNI Tricks
+
+Bugfixes:
+- Fixed Root CA installation on Android 11 and higher. You need to install it manually due to new security policies.
+
+v1.9
+===
+New features:
+- Added support for Erase and Fake SNI tricks
+- Upstream proxy support
+- Support for insecure local network DoH requests
+
+Improvements:
+- Now it's possible to edit settings without stopping the proxy server
+- Improved Update Notifier
+- Improved usability
+- Improved responsiveness
+
+Bugfixes:
+- Fixed an issue when certificate installer wasn't showing
+- Fixed crashes and improved support of old Android versions
+===
+
+v1.8.3
+===
+Improvements:
+- Added support for proxy auto start on device boot
+
+Bugfixes:
+- Resolved an issue with Samsung firmware bug
+===
+
+v1.8.2
+===
+Improvements:
+- Now you can switch to PowerTunnel VPN directly from Quick Settings without needing to open the app
+
+Bugfixes:
+- Fixed an issue when PowerTunnel didn't start from Quick Tile if it is in proxy mode
+===
+
+v1.8.1
+===
+Bugfixes:
+- Fixed an issue when using Quick Tile led to crash
+- Fixed some user interface bugs
+===
+
+v1.8
+===
+New features:
+- You can start PowerTunnel using quick settings tile now. This feature requires Android 7 and higher.
+
+Improvements:
+- Added notification that can be used to stop PowerTunnel
+- Improved performance and memory usage
+- Improved user interface
+
+Bugfixes:
+- Fixed an issue with certificate installer
+- Fixed an issue when the PowerTunnel logo was showing in low resolution
+===
+
+v1.7.1
+===
+Improvements:
+- Better error handling
+
+Bugfixes:
+- SNI Spoiler supports Android 9 and higher now
+===
+
+v1.7
+===
+New features:
+- New HTTPS DPI circumvention method: SNI Spoiling
+
+Improvements:
+- Mix host header value is mixing only the last letter by default now. This behavior can be changed in the options.
+===
+
+v1.6
+===
+New features:
+- Ability to disable the standard DPI circumvention methods
+- New HTTP DPI circumvention methods
+
+Improvements:
+- Improved performance
+- Improved battery usage
+===
+
+v1.5.2
+===
+New features:
+- Ability to specify DNS server port
+===
+
+v1.5.1
+===
+Improvements:
+- Optimized memory usage
+
+Bugfixes:
+- Fixed connectivity issues (bad gateway), the fix can be disabled in options.
+- Fixed some layout issues
+===
+
+v1.5
+===
+General changes:
+- Added support for Android 4.2 and higher
+- Proxy mode notification has lower priority now
+- VPN settings grays out when proxy mode is enabled
+
+New features:
+- Ability to configure local proxy address and port
+
+Improvements:
+- PowerTunnel displays proxy startup error now
+
+Bugfixes:
+- Fixed memory leak, high CPU utilization and fast battery drain on "payload" DPI circumvention method
+- Fixed main activity duplication in proxy mode
+===
+
+v1.4
+===
+New features:
+- Proxy mode. You can use PowerTunnel as regular proxy instead of VPN now. It can be useful in cases when you need PowerTunnel and another VPN connection on the same time. Note: you will have to manually configure proxy server in your apps if you enable proxy mode.
+
+Improvements:
+- Improved overall stability of the application
+===
+
+v1.3.2
+===
+Changes:
+- Removed discounted SecureDNS DNS provider
+===
+
+v1.3.1
+===
+New features:
+- Dark Theme
+===
+
+v1.3
+===
+New features:
+- You can specify your favorite DNS provider now
+
+Added translations:
+- Polish language
+
+Bugfixes:
+- Fixed some DNS resolving issues
+- Update notifier doesn't suggests to update where there's no updates
+===
+
+v1.2.1
+===
+Bugfixes:
+- Fixed connectivity issues
+===
+
+v1.2
+===
+Improvements:
+- Changelog is displaying in update info now
+
+Bugfixes:
+- Fixed the misaligned layout on the small layout
+- Fixed app crash on the old Android versions
+===
+
+v1.1
+===
+New features:
+- DNS over HTTPS (DoH mode) - you can choose DoH provider in settings
+
+Improvements:
+- More custom DNS providers, including DoH
+- Updated DNSSec algorithm, still be experimental and not stable
+- Less persistent updater
+
+Bugfixes:
+- Custom DNS provider was ignored on certain Android versions
+
+Internal changes:
+- LibertyTunnel base PowerTunnel version updated to version 1.10
+- We moved from outdated DNSSEC4J to dnssecjava.
+
+Known issues:
+- DoH doesn't work with Android 10 and higher
+===
+
+v1.0
+===
+New features:
+- Option to use the system default DNS servers
+- Option to choose between the Cloudflare and Google DNS servers
+- Experimental DNSSec option
+- Mix host case and payload circumvent methods
+- Update notifier
+- Clear allowed/disallowed application selections
+
+Added translations:
+- Russian language
+
+Improvements:
+- Improved performance and stability
+- Interface polishing
+
+Bugfixes:
+- PowerTunnel logo is now displaying properly
+- PowerTunnel is now no longer crashes on reopening
+- Fixed the crash occurring at start when some allowed or disallowed applications are deleted
+===
+
+v1.0-preview
+===
+Very early preview version.
+
+Working features:
+- Allow/disallow certain application to circumvent DPI
+- HTTP/HTTPS circumvention (without government blacklists)
+
+Known issues:
+- Low quality PowerTunnel logo
+- Misaligned UI on small devices
+- Closing and reopening PowerTunnel activity when VPN is enabled causes application creash
+- Sometimes Bad request to URI in Chrome when Data Saver is enabled
+- Start fails when allowed/disallowed package is deleted

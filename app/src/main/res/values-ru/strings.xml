@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of PowerTunnel-Android.
+  ~
+  ~ PowerTunnel-Android is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ PowerTunnel-Android is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with PowerTunnel-Android.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_description">Мощный и расширяемый прокси-сервер</string>
+    <string name="ok">ОК</string>
+    <string name="yes">Да</string>
+    <string name="cancel">Отмена</string>
+    <string name="learn_more">Узнать больше</string>
+    <string name="download">Скачать</string>
+    <string name="action_starting">Запуск…</string>
+    <string name="action_start">Запустить</string>
+    <string name="action_stop">Остановить</string>
+    <string name="action_stopping">Остановка…</string>
+    <string name="action_connecting">Подключение…</string>
+    <string name="action_connect">Подключиться</string>
+    <string name="action_disconnect">Отключиться</string>
+    <string name="action_disconnecting">Отключение…</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О приложении</string>
+    <string name="status_running_proxy">Прокси-сервер запущен</string>
+    <string name="status_running_vpn">VPN подключен</string>
+    <string name="status_not_running_proxy">Прокси-сервер не работает</string>
+    <string name="status_not_running_vpn">VPN не подключен</string>
+    <string name="main_description_proxy">Приложение работает в режиме прокси, вам нужно вручную настроить каждое приложение для работы с прокси-сервером</string>
+    <string name="main_description_vpn">Приложение работает в режиме VPN, трафик всех приложений проходит через PowerTunnel</string>
+    <string name="main_description_proxy_loopback"><![CDATA[<b>%1$s</b><small><br><br></small>Для локальных соединений:<small><br></small><b>%2$s</b><small><br><br></small>|Для соединений в локальной сети:<small><br></small><b>%3$s</b>]]></string>
+    <string name="toast_allow_vpn">Пожалуйста, разрешите подключиться к VPN</string>
+    <string name="toast_configure_while_running">Нажмите еще раз для изменения настроек, PowerTunnel будет перезапущен для их применения</string>
+    <string name="toast_configure_while_running_restart">PowerTunnel перезапускается для применения настроек</string>
+    <string name="toast_failed_to_extract_plugins">Ошибка при установке встроенных плагинов</string>
+    <string name="toast_failed_to_install_plugin">При установке плагина произошла ошибка</string>
+    <string name="toast_failed_to_uninstall_plugin">При удалении плагина произошла ошибка</string>
+    <string name="toast_plugin_uninstalled">Плагин \"%1$s\" удален</string>
+    <string name="qs_starting">Запуск PowerTunnel…</string>
+    <string name="qs_stopping">Остановка PowerTunnel…</string>
+    <string name="qs_startup_failed">При запуске PowerTunnel произошла ошибка</string>
+    <string name="dialog_error_failed_to_start_title">Ошибка при запуске</string>
+    <string name="dialog_error_failed_to_start_message_proxy">При запуске прокси-сервера произошла ошибка: %1$s</string>
+    <string name="dialog_error_failed_to_start_message_vpn">При запуске VPN-сервера произошла ошибка: %1$s</string>
+    <string name="dialog_error_failed_to_start_message_vpn_fw">Начиная с обновления безопасности устройств Samsung за август 2020 года в ОС появился баг, который препятствует подключению к локальному VPN-серверу. Для инструкций по исправлению посетите репозиторий.</string>
+    <string name="toast_cert_install">Пожалуйста, установите сертификат для использования включенных функций</string>
+    <string name="toast_cert_install_a11">Пожалуйста, установите сохраненный сертификат для использования включенных функций</string>
+    <string name="toast_cert_install_error">Не удалось установить сертификат, некоторые функции могут быть недоступны</string>
+    <string name="toast_cert_installed">Сертификат успешно установлен</string>
+    <string name="toast_cert_extract_os_unsupported">Сохранение сертификата не поддерживается вашей версией Android</string>
+    <string name="toast_cert_extracted">Сертификат успешно сохранен</string>
+    <string name="toast_cert_extraction_failed">При сохранении сертификата произошла ошибка</string>
+    <string name="dialog_cert_extract_title">Установщик сертификатов</string>
+    <string name="dialog_cert_extract_message">Вы хотите сохранить сертификат для ручной установки?</string>
+    <string name="notification_group_connection">Подключение</string>
+    <string name="notification_group_connection_description">Состояние подключения</string>
+    <string name="notification_channel_proxy">Прокси-сервер</string>
+    <string name="notification_channel_proxy_description">Состояние прокси-сервера</string>
+    <string name="notification_channel_vpn">VPN</string>
+    <string name="notification_channel_vpn_description">Состояние соединения VPN</string>
+    <string name="notification_title_proxy">PowerTunnel Proxy</string>
+    <string name="notification_message_proxy">Прокси-сервер запущен</string>
+    <string name="notification_title_vpn">PowerTunnel VPN</string>
+    <string name="notification_message_vpn">VPN подключен</string>
+    <string name="title_activity_plugins">Плагины</string>
+    <string name="alt_plugin_settings">Настройки</string>
+    <string name="alt_plugin_uninstall">Удалить</string>
+    <string name="alt_plugin_about">Информация</string>
+    <string name="visit_homepage">Вебсайт</string>
+    <string name="action_plugin_install">Установить плагин</string>
+    <string name="action_plugin_registry">Реестр плагинов</string>
+    <string name="toast_plugin_not_configurable">Плагин не имеет настроек</string>
+    <string name="toast_plugin_installed">Плагин успешно установлен, удалите предыдущую версию если установлена</string>
+    <string name="dialog_plugin_uninstall_title">Подтверждение</string>
+    <string name="dialog_plugin_uninstall_message">Вы действительно хотите удалить плагин?</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="settings_category_application">Приложение</string>
+    <string name="settings_pref_theme">Тема</string>
+    <string name="settings_pref_autostart">Автозапуск</string>
+    <string name="settings_pref_autostart_description">Автозапуск после перезагрузки если приложение работало до этого</string>
+    <string name="settings_category_connection">Соединение</string>
+    <string name="settings_pref_mode">Режим соединения</string>
+    <string name="settings_pref_proxy_ip">IP-адрес локального прокси-сервера</string>
+    <string name="settings_pref_proxy_port">Порт локального прокси-сервера</string>
+    <string name="settings_pref_upstream_proxy">Подключаться через внешний прокси-сервер</string>
+    <string name="settings_pref_upstream_proxy_description">Использовать внешний прокси-сервер для доступа в Интернет</string>
+    <string name="settings_pref_upstream_proxy_ip">Адрес внешнего прокси-сервера</string>
+    <string name="settings_pref_upstream_proxy_port">Порт внешнего прокси-сервера</string>
+    <string name="settings_pref_upstream_proxy_auth_username">Имя пользователя внешнего прокси-сервера</string>
+    <string name="settings_pref_upstream_proxy_auth_password">Пароль внешнего прокси-сервера</string>
+    <string name="settings_category_vpn">VPN</string>
+    <string name="settings_pref_vpn_apps_mode">Режим фильтрации приложений</string>
+    <string name="settings_pref_vpn_apps_excluded">Исключенные приложения</string>
+    <string name="settings_pref_vpn_apps_excluded_description">Список приложений, обходящих VPN</string>
+    <string name="settings_pref_vpn_apps_allowed">Разрешенные приложения</string>
+    <string name="settings_pref_vpn_apps_allowed_description">Список приложений, которые будут использовать VPN</string>
+    <string name="settings_category_proxy">Прокси-сервер</string>
+    <string name="settings_pref_proxy_auth_enabled">Запрашивать авторизацию на прокси-сервере</string>
+    <string name="settings_pref_proxy_auth_enabled_description">Прокси-сервер будет запрашивать базовую HTTP авторизацию</string>
+    <string name="settings_pref_proxy_auth_username">Имя пользователя прокси-сервера</string>
+    <string name="settings_pref_proxy_auth_password">Пароль прокси-сервера</string>
+    <string name="settings_pref_transparent_mode">Прозрачный режим</string>
+    <string name="settings_pref_allow_requests_to_origin_server">Разрешить запросы к исходному серверу</string>
+    <string name="settings_category_data_storage">Хранение данных</string>
+    <string name="settings_pref_external_configs">Хранить конфигурацию в документах</string>
+    <string name="settings_pref_external_configs_off">Файлы конфигурации хранятся в безопасном хранилище приложения</string>
+    <string name="settings_pref_external_configs_on">Файлы конфигурации хранятся в папке Документы</string>
+    <string name="dialog_external_configs_title">Подтверждение</string>
+    <string name="dialog_external_configs_message">Настройки плагинов будут сброшены после перемещения в папку Документы, продолжить?</string>
+    <string name="app_list_search">Поиск</string>
+    <string name="app_list_show_checked">Показать выбранные приложения</string>
+    <string name="app_list_refresh">Обновить</string>
+    <string name="plugin_settings_failed_to_create">При создании конфигурации произошла ошибка</string>
+    <string name="plugin_settings_failed_to_read">При чтении конфигурации произошла ошибка</string>
+    <string name="plugin_settings_failed_to_save">При сохранении конфигурации произошла ошибка</string>
+    <string name="action_plugin_settings_reset">Сбросить настройки</string>
+    <string name="toast_permission_for_external_configs">Пожалуйста, разрешите приложению доступ к хранилищу для сохранения конфигурации в папке Документы</string>
+    <string name="check_for_updates">Проверить обновления</string>
+    <string name="dialog_update_available_title">Доступно обновление</string>
+    <string name="dialog_update_available_message">Версия %1$s готова к установке</string>
+    <string name="dialog_update_error_title">Не удалось проверить обновления</string>
+    <string name="dialog_update_error_message">При проверке обновлений произошла ошибка, проверьте соединение с сетью</string>
+    <string name="dialog_update_checking_title">Проверка обновлений…</string>
+    <string name="dialog_update_checking_message">Установленная версия: %1$s</string>
+    <string name="dialog_update_no_updates_title">Нет доступных обновлений</string>
+    <string name="dialog_update_no_updates_message">Вы используете последнюю версию PowerTunnel</string>
+    <string name="notification_channel_updater_description">Уведомления об обновлениях</string>
+    <string name="notification_channel_updater">Обновления</string>
+    <string name="alt_logo">Логотип PowerTunnel</string>
+    <string name="app_version">Версия %1$s\nCore v%2$s (%3$d), SDK %4$d</string>
+    <string name="settings_pref_upstream_proxy_auth">Авторизация на внешнем прокси-сервере</string>
+    <string name="settings_pref_upstream_proxy_auth_description">Авторизовываться на внешнем прокси-сервере</string>
+    <string name="toast_plugin_stop_server_to_act">Пожалуйста, остановите сервер для выполнения данного действия</string>
+    <string name="settings_pref_strict_dns">Строгий режим DNS</string>
+    <string name="title_activity_crash">Сообщение об ошибке</string>
+    <string name="crash_heading">Непредвиденная ошибка</string>
+    <string name="crash_submit_issue">Сообщить о проблеме</string>
+    <string name="crash_submit_issue_note">Пожалуйста, сообщите, если ошибка повторяется.\nНе забудьте прикрепить текст ошибки.</string>
+    <string name="settings_pref_collect_logs">Собирать логи</string>
+    <string name="settings_pref_collect_logs_description">Добавляет опцию \"Просмотр логов\" в меню трех точек</string>
+    <string name="view_logs">Просмотр логов</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_save">Сохранить</string>
+    <string name="toast_logs_error">Ошибка при чтении логов</string>
+    <string name="title_activity_logs">Просмотр логов</string>
+    <string name="toast_logs_saved">Файл с логами успешно сохранен</string>
+    <string name="toast_logs_save_failed">Ошибка при сохранении логов</string>
+    <string name="toast_logs_save_os_unsupported">Сохранение логов не поддерживается вашей версией Android</string>
+    <string name="settings_pref_cert_refuse">Не предлагать установку сертификата</string>
+    <string name="settings_pref_vpn_resolve_hosts">Разрешать доменные имена</string>
+    <string name="settings_pref_vpn_resolve_hosts_description">Повышает производительность в ущерб функциональности</string>
+    <string name="settings_pref_upstream_proxy_protocol">Протокол внешнего прокси-сервера</string>
+    <string name="menu_plugin_additional_configuration_title">Дополнительная конфигурация</string>
+    <string name="toast_config_editor_error">Ошибка при чтении файла конфигурации</string>
+    <string name="toast_config_editor_saved">Изменения сохранены</string>
+    <string name="toast_config_init_error">Ошибка при инициализации файла конфигурации</string>
+    <string name="toast_config_editor_saved_error">Ошибка при сохранении файла конфигурации</string>
+    <string name="plugins_activity_tip">Удерживайте значок настроек для редактирования дополнительной конфигурации</string>
+    <string name="plugins_activity_toast_back">Нажмите еще раз, чтобы выйти без сохранения</string>
+</resources>
